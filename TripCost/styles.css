@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin: auto;
+  height: 100%;
+  font-size: 100%;
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  opacity: 0.7;
+}
+
+body {
+  background: url(./assets/taxi.jpg);
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.container {
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  height: 430px;
+  width: 500px;
+}
+
+.calcForm {
+  font-size: 120%;
+  height: 100%;
+  display: flex;
+  padding: 5%;
+  border-radius: 2%;
+  background-color: #319b54;
+  opacity: 0.8;
+}
+
+input {
+  width: 120px;
+  font-size: x-large;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+textarea {
+  resize: none;
+  width: 220px;
+}
+
+.outtext {
+  background-color: #e0f0e0;
+}
+
+td {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+button {
+  border-radius: 5%;
+  padding: 10px 10px;
+  box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.5);
+  line-height: 1.25;
+  background: #9b3178;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  position: relative;
+  transition: background-color 0.6s ease;
+}

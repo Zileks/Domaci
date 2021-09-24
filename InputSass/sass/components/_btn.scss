@@ -1,0 +1,21 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    margin-top: 5rem;
+    background-color: $primary;
+    text-transform: uppercase;
+    padding: 1.5rem 4rem;
+    border-radius: 10rem;
+    transition: 0.2s all;
+    border: none;
+    cursor: pointer;
+    background-color: $primary;
+    color: white;
+  }
+  &:hover {
+    transform: translateY(0.3rem);
+    scale: 1.05;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  }
+}

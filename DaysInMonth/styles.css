@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin: auto;
+  height: 100%;
+  font-size: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+h1 {
+  margin-top: 5%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.container {
+  margin: auto;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+.outputDiv {
+  margin-top: 60px;
+}
+
+#output {
+  width: 50px;
+}
+
+#form {
+  background-color: gray;
+  padding: 10px 10px;
+  height: 150px;
+  width: 350px;
+}
+
+.button {
+  margin-top: 20px;
+  margin-left: 35%;
+}
+
+button {
+  border-radius: 5%;
+  padding: 3px 3px;
+  box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.5);
+  line-height: 1.25;
+  background: rgba(41, 39, 39, 0.993);
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: background-color 0.6s ease;
+}
+
+label {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+input {
+  width: 200px;
+  font-size: large;
+}
+
+#output {
+  background-color: #e0f0e0;
+}

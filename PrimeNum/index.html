@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime number</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="container">
+         <h1>Prime Numbers</h1>
+         <form class="calcForm" id="form"> 
+            <table class="calc">
+                <tbody>
+                   <tr>
+                       <td>
+                           <label>First num: </label>
+                       </td>
+                       <td id="alert">
+                           <input type="number" name="x" class="intext" id="input1" required autofocus>
+                       </td>
+                       
+                   </tr> 
+                   <tr>
+                       <td>
+                           <label>Second Num: </label>
+                       </td>
+                       <td>
+                           <input type="number" class="intext" id="input2" required >
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           Result: 
+                        </td>
+                        <td>
+                            <textarea rows="4" class="outtext" readonly id="output"></textarea>
+                        </td>
+                   </tr>
+                   <tr>
+                       <td class="button">
+                           <button type="submit" id="button">Calculate</button>
+                       </td>
+                   </tr>
+                </tbody>
+            </table>
+        </form>
+     </div>
+    <script src="index.js"></script>
+ </body>
+</html>

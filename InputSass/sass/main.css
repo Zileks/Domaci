@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (min-width: 112.5em) {
+  html {
+    font-size: 68.75%;
+  }
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 400;
+  line-height: 1.7;
+  background-color: #e4e4e4;
+  color: #777;
+}
+
+.page {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form {
+  font-size: 2rem;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form_input {
+  font-size: 1.5rem;
+  padding: 1.5rem 2rem;
+  margin: 0.5rem 0rem;
+  border-radius: 2px;
+  background-color: white;
+  opacity: 0.5;
+  border: none;
+  border-bottom: 3px solid transparent;
+  width: 100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.form_input:focus {
+  outline: none;
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid #ff7730;
+}
+
+.btn, .btn:link, .btn:visited {
+  margin-top: 5rem;
+  background-color: #ff7730;
+  text-transform: uppercase;
+  padding: 1.5rem 4rem;
+  border-radius: 10rem;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  border: none;
+  cursor: pointer;
+  background-color: #ff7730;
+  color: white;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(0.3rem);
+          transform: translateY(0.3rem);
+  scale: 1.05;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+/*# sourceMappingURL=main.css.map */
