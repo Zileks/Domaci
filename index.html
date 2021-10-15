@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="page-wrap">
+      <header>
+        <div class="wrap">
+          <div class="lds-spinner" id="loading">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="header-blockquote">
+            <h1 class="header-quote" id="quote"></h1>
+            <div class="header-cite" id="quote-cite"></div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="wrap">
+          <form id="form">
+            <div class="name">
+              <label for="name" id="label-name"></label>
+              <input type="text" id="name" name="name" autocomplete="off" />
+            </div>
+            <div class="surname">
+              <label for="surname" id="label-surname"></label>
+              <input
+                type="text"
+                id="surname"
+                name="surname"
+                autocomplete="off"
+              />
+            </div>
+            <div class="dob">
+              <label for="dob" id="label-dob"></label>
+              <input type="date" id="dob" name="dob" autocomplete="off" />
+            </div>
+            <button type="submit" id="save">Save</button>
+            <div class="languages">
+              <button id="sr" type="button">Serbian</button>
+              <button id="en" type="button">English</button>
+            </div>
+          </form>
+        </div>
+      </main>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
